@@ -14,6 +14,6 @@ resource "aws_instance" "tf_inst" {
 	ami = "ami-0a0e5d9c7acc336f1"
 	instance_type = "t2.micro"
 	tags = {
-		Name = "new-tf-inst"
+		Name = "user_update"
 	}
 }
